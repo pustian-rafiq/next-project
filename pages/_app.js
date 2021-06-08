@@ -1,3 +1,5 @@
+// module.exports = require("react/jsx-dev-runtime");
+
 import '../styles/globals.css'
 import '../styles/animate.min.css'
 import '../styles/bootstrap.min.css'

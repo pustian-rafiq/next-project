@@ -53,14 +53,14 @@ export async function getStaticProps() {
 
 import React, { Component } from 'react';
 import NavMenuDesktop from '../components/NavMenuDesktop';
-import ProductList from '../components/ProductList';
+// import ProductList from '../components/ProductList';
 
 class product extends Component {
     render() {
         return (
             <div>
                 <NavMenuDesktop/>
-                <ProductList dataTable={this.props.dataTable}/>
+                
             </div>
         );
     }
